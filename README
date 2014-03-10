@@ -1,0 +1,23 @@
+Author: Natasha Squires
+
+This project was tested on Ubuntu 12.04
+
+FILE MANIFEST:
+
+*Header files:
+	sjf.h - This header file contains function protocols, definitions and a process struct
+
+*C files:
+	sjf.c - An attempt at pre-emptive shortest job first process scheduling.
+
+*Other:
+	testdata.dat, testdata2.dat - Symbolic representation of processes
+				      and their IO/CPU burst cycles
+	
+HOW TO COMPILE AND RUN:
+To compile:
+$ gcc sjf.c -o ShortestJobFirst
+In order to run, you must type ./ShortestJobFirst [filename]. If one of the test data files are not passed, the program will exit.
+
+ISSUES?
+Yeah, I have no idea if this is accurate or fully functioning!!!!
